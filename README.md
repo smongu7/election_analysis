@@ -22,8 +22,7 @@ These were the results according to the analysis:
   - Raymon Anthony Doane recieved 3.1% of the popular vote with 11,606 votes.
 
 ## Challenge Overview
-The purpose this challenge was to apply what we learned in the project. In the project, we learned how to:
- - import, open and read a file
+The purpose of this challenge was to apply what we learned in the project. In the project, we learned how to write code to:
  - add a variable to load or save a file path
  - initialize each of the following: 
     - list 
@@ -40,6 +39,8 @@ The purpose this challenge was to apply what we learned in the project. In the p
  - Print the results to the terminal
  - Save the results to a text file.
 
+In the challenge, we performed each of these tasks.
+
 ## RESULTS
 These were the results according to the analysis:
 - These were the counties:
@@ -50,7 +51,7 @@ These were the results according to the analysis:
     - Arapahoe had a 6.7% turnout with 24,801 votes.
     - Denver had an 82.8% turnout with 306,055 votes.
     - Jefferson had a 10.5% turnout with 38.855 votes.
-- Jefferson county had the largest turnout.
+- Denver county had the largest turnout.
 
 ## Challenge Summary
 This script could be used to audit any election; one would just have to replace the names of counties and candidates. Additionally, if the columns are in a different order-- or there are more than 3 of them-- then the index might need to be changed to ensure the script is retrieving data from the correct column. One way this code could be modified would be to calculate how many votes each candidate recieved per county; with this data, we would be able to see if a candidates won the popular vote of a county but not the overall popular vote. Another way we could modify this script would be to add the population of each county. Using this data, we could calculate the voter turnout of each county in this election.
